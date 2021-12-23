@@ -1,0 +1,149 @@
+        body {
+            background-size: cover;
+            background-color: darkgrey;
+            /* background-color: bisque;*/
+        }
+        
+        .formBackground {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            z-index: -100;
+            opacity: 0.5;
+        }
+        /*page general content du xml */
+        
+        section {
+            margin-top: 5%;
+            z-index: 1;
+        }
+        
+        h1 {
+            margin-top: 200px;
+            padding-top: 20px;
+            width: 100%;
+            height: 100px;
+            text-align: center;
+            text-shadow: #FC0 1px 0 10px;
+            z-index: 1;
+        }
+        
+        h2 {
+            color: wheat;
+            width: 100%;
+            height: 100px;
+            margin-left: 4%;
+        }
+        
+        h3 {
+            width: 100%;
+            height: 100px;
+            text-align: center;
+        }
+        
+        .textcontent {
+            color: floralwhite;
+            text-align: center;
+            margin-top: 50px;
+            margin-left: 5%;
+            margin-right: 5%;
+            z-index: 1;
+        }
+
+        .textcontent2 {
+            color: floralwhite;
+        }
+        
+        ul {
+            color: floralwhite;
+            margin-left: 20%;
+            margin-right: 20%;
+            z-index: 1;
+        }
+        /*galerie d'image de la page d'accueil */
+        
+        .gallery_box_single {
+            text-align: center;
+            margin: auto;
+            z-index: 1;
+        }
+        /*navbar */
+        /*logo de la navbar*/
+        
+        .logo {
+            height: 6em;
+            width: 6em;
+            z-index: 1;
+        }
+        /* */
+        
+        .navTextColor {
+            color: rgb(255, 255, 255);
+            z-index: 1;
+        }
+        
+        #navbarResponsive {
+            color: blanchedalmond;
+            z-index: 1;
+        }
+        /*couleur de la navbar */
+        
+        .navColor {
+            background: #914A0D;
+            z-index: 1;
+        }
+        /*titre de la navbar*/
+        
+        .title {
+            font-size: 2em;
+            z-index: 1;
+        }
+        /*formulaire de la page de contact */
+        
+        .divForm {
+            position: relative;
+            border-radius: 18px;
+            padding: 50px;
+            margin-right: 10%;
+            margin-left: 10%;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            background: burlywood;
+            z-index: 0;
+        }
+        
+        .nav-link {
+            color: floralwhite;
+        }
+        /*carte du formulaire de contact */
+        
+        iframe {
+            border-radius: 18px;
+            width: 100%;
+            height: 500px;
+            margin: 0 auto;
+            display: block;
+            justify-content: center;
+            text-align: center;
+            z-index: 1;
+        }
+        
+        .content {
+            background: linear-gradient(#a8642cf0, #bc6d129d);
+            border-radius: 18px;
+            margin-left: 3%;
+            margin-right: 3%;
+            padding-bottom: 50px;
+            margin-bottom: 3%;
+        }
+        
+        @media screen and (max-width: 985px) {
+            iframe {
+                height: 200px;
+            }
+            .logo {
+                height: 3em;
+                width: 3em;
+                z-index: 1;
+            }
+        }
